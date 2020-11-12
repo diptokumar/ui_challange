@@ -40,13 +40,14 @@ class MyHome extends StatelessWidget {
               'images/contactus2.png',
               height: 250,
             )),
-            
             SizedBox(
               height: 05,
             ),
             Text('Have an issue or query?'),
             Text('Please Contact Us'),
-            SizedBox(height: 05,),
+            SizedBox(
+              height: 05,
+            ),
             Row(
               mainAxisAlignment: MainAxisAlignment.center,
               children: [
@@ -55,13 +56,16 @@ class MyHome extends StatelessWidget {
                   child: Container(
                     height: 120,
                     width: 150,
-                    decoration: BoxDecoration(color: Colors.white, boxShadow: [
-                      BoxShadow(
-                        color: Colors.grey.withOpacity(0.3),
-                        blurRadius: 10,
-                        offset: Offset(0, 10),
-                      ),
-                    ]),
+                    decoration: BoxDecoration(
+                        color: Colors.white,
+                        boxShadow: [
+                          BoxShadow(
+                            color: Colors.grey.withOpacity(0.3),
+                            blurRadius: 10,
+                            offset: Offset(0, 10),
+                          ),
+                        ],
+                        borderRadius: BorderRadius.circular(5)),
                     child: Column(
                       mainAxisAlignment: MainAxisAlignment.center,
                       children: [
@@ -84,13 +88,17 @@ class MyHome extends StatelessWidget {
                   child: Container(
                     height: 120,
                     width: 150,
-                    decoration: BoxDecoration(color: Colors.white, boxShadow: [
-                      BoxShadow(
-                        color: Colors.grey.withOpacity(0.3),
-                        blurRadius: 10,
-                        offset: Offset(0, 10),
-                      ),
-                    ]),
+                    decoration: BoxDecoration(
+                      color: Colors.white,
+                      boxShadow: [
+                        BoxShadow(
+                          color: Colors.grey.withOpacity(0.3),
+                          blurRadius: 10,
+                          offset: Offset(0, 10),
+                        ),
+                      ],
+                      borderRadius: BorderRadius.circular(5),
+                    ),
                     child: Column(
                       mainAxisAlignment: MainAxisAlignment.center,
                       children: [
@@ -121,13 +129,17 @@ class MyHome extends StatelessWidget {
                   child: Container(
                     height: 120,
                     width: 150,
-                    decoration: BoxDecoration(color: Colors.white, boxShadow: [
-                      BoxShadow(
-                        color: Colors.grey.withOpacity(0.3),
-                        blurRadius: 10,
-                        offset: Offset(0, 10),
-                      ),
-                    ]),
+                    decoration: BoxDecoration(
+                      color: Colors.white,
+                      boxShadow: [
+                        BoxShadow(
+                          color: Colors.grey.withOpacity(0.3),
+                          blurRadius: 10,
+                          offset: Offset(0, 10),
+                        ),
+                      ],
+                      borderRadius: BorderRadius.circular(5),
+                    ),
                     child: Column(
                       mainAxisAlignment: MainAxisAlignment.center,
                       children: [
@@ -150,13 +162,17 @@ class MyHome extends StatelessWidget {
                   child: Container(
                     height: 120,
                     width: 150,
-                    decoration: BoxDecoration(color: Colors.white, boxShadow: [
-                      BoxShadow(
-                        color: Colors.grey.withOpacity(0.3),
-                        blurRadius: 10,
-                        offset: Offset(0, 10),
-                      ),
-                    ]),
+                    decoration: BoxDecoration(
+                      color: Colors.white,
+                      boxShadow: [
+                        BoxShadow(
+                          color: Colors.grey.withOpacity(0.3),
+                          blurRadius: 10,
+                          offset: Offset(0, 10),
+                        ),
+                      ],
+                      borderRadius: BorderRadius.circular(5),
+                    ),
                     child: Column(
                       mainAxisAlignment: MainAxisAlignment.center,
                       children: [
@@ -178,8 +194,9 @@ class MyHome extends StatelessWidget {
             ),
             Text('Copyright (c) 2020'),
             Text('All rights reserved'),
-            SizedBox(height: 10,)
-
+            SizedBox(
+              height: 10,
+            )
           ],
         ),
       ),
