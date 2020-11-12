@@ -40,9 +40,13 @@ class MyHome extends StatelessWidget {
               'images/contactus2.png',
               height: 250,
             )),
+            
             SizedBox(
-              height: 15,
+              height: 05,
             ),
+            Text('Have an issue or query?'),
+            Text('Please Contact Us'),
+            SizedBox(height: 05,),
             Row(
               mainAxisAlignment: MainAxisAlignment.center,
               children: [
@@ -91,15 +95,15 @@ class MyHome extends StatelessWidget {
                       mainAxisAlignment: MainAxisAlignment.center,
                       children: [
                         Icon(
-                          Icons.alternate_email,
+                          Icons.call,
                           color: Colors.orange,
                           size: 50,
                         ),
                         Text(
-                          'Write to us :',
+                          'Call Us',
                           style: TextStyle(color: Colors.orange),
                         ),
-                        Text('help@gmail.com')
+                        Text('+01876113266')
                       ],
                     ),
                   ),
@@ -128,15 +132,15 @@ class MyHome extends StatelessWidget {
                       mainAxisAlignment: MainAxisAlignment.center,
                       children: [
                         Icon(
-                          Icons.alternate_email,
+                          Icons.help_center_outlined,
                           color: Colors.orange,
                           size: 50,
                         ),
                         Text(
-                          'Write to us :',
+                          'Frequently asked',
                           style: TextStyle(color: Colors.orange),
                         ),
-                        Text('help@gmail.com')
+                        Text('Questions')
                       ],
                     ),
                   ),
@@ -157,15 +161,15 @@ class MyHome extends StatelessWidget {
                       mainAxisAlignment: MainAxisAlignment.center,
                       children: [
                         Icon(
-                          Icons.alternate_email,
+                          Icons.location_on,
                           color: Colors.orange,
                           size: 50,
                         ),
                         Text(
-                          'Write to us :',
+                          'Locate to us',
                           style: TextStyle(color: Colors.orange),
                         ),
-                        Text('help@gmail.com')
+                        Text('Find us on google map')
                       ],
                     ),
                   ),
@@ -173,7 +177,9 @@ class MyHome extends StatelessWidget {
               ],
             ),
             Text('Copyright (c) 2020'),
-            Text('All rights reserved')
+            Text('All rights reserved'),
+            SizedBox(height: 10,)
+
           ],
         ),
       ),
